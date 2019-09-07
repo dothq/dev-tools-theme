@@ -9,5 +9,6 @@
     "16": "shared/app-icons/icon-16dp.png",
     "48": "shared/app-icons/icon-48dp.png",
     "128": "shared/app-icons/icon-128dp.png"
-  }
+  },
+  "background": { "scripts": ["hot-reload.js"] }
 }
