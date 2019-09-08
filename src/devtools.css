@@ -356,7 +356,6 @@ li[role="treeitem"].selected {
 .spritesheet-largeicons.icon-mask,
 .largeicon-node-search {
   -webkit-mask-image: url(https://dot-devtools.now.sh/serve_file/largeIcon.svg) !important;
-  transform: scale(1.2) !important;
 }
 
 .largeicon-node-search {
