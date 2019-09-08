@@ -1,9 +1,9 @@
-html {
+/* html {
   -webkit-animation: 0.4s ease fade;
   animation: 0.4s ease fade;
-}
+} */
 
-@keyframes fade {
+/* @keyframes fade {
   0% {
     opacity: 0;
   }
@@ -25,7 +25,7 @@ html {
   100% {
     opacity: 1 !important;
   }
-}
+} */
 
 :root {
   --background: #fdfdfd;
@@ -95,14 +95,14 @@ html,
   --editor-selection-inactive-bg-color: var(--selBgAlpha) !important;
   --message-border-color: var(--border) !important;
 }
-html .tree-outline li.property,
+/* html .tree-outline li.property,
 :host-context(html) .tree-outline li.property {
   color: var(--attribute-name-color);
 }
 
 .tree-outline:not(.hide-selection-when-blurred) li.selected .selection {
   background-color: var(--divider-color) !important;
-}
+} */
 
 /* html .ax-name,
 :host-context(html) .ax-name {
