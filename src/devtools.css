@@ -449,6 +449,6 @@ li[role="treeitem"].selected {
 :host-context(.platform-windows) .source-code,
 .platform-windows .monospace,
 .platform-windows .source-code {
-  font-size: 12.1px !important;
+  font-size: 12px !important;
   font-family: Consolas, Lucida Console, Courier New, monospace !important;
 }
