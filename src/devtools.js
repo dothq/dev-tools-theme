@@ -2,6 +2,13 @@ fetch("devtools.css")
   .then(res => res.text())
   .then(data => {
     chrome.devtools.panels.applyStyleSheet(data);
+
+    var style = document.createElement("style");
+
+    style.setAttribute("src", "devtools.css");
+
+    document.body.appendChild(style);
+
     console.clear();
     console.log(
       "%c Developer Tools %c Main %c Injected stylesheet",
